@@ -14,6 +14,7 @@ export const Header = () => {
         <a
           className="w-8 h-8 xs:w-7 xs:h-7"
           href="https://github.com/beniusis"
+          target="_blank"
           aria-label="github"
         >
           <svg className="w-full h-full fill-zinc-900" viewBox="0 0 24 24">
@@ -24,6 +25,7 @@ export const Header = () => {
         <a
           className="w-8 h-8 xs:w-7 xs:h-7"
           href="https://www.linkedin.com/in/rbeniusis"
+          target="_blank"
           aria-label="linkedin"
         >
           <svg className="w-full h-full fill-zinc-900" viewBox="0 0 24 24">
