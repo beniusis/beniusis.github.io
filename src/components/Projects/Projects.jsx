@@ -38,7 +38,7 @@ const PROJECTS = [
 
 export const Projects = () => {
   return (
-    <div className="flex flex-col gap-8">
+    <div className="flex flex-col gap-10">
       <Heading>Projects</Heading>
 
       <div className="flex flex-col justify-center items-start gap-6">

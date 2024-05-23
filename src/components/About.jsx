@@ -5,7 +5,7 @@ const CURRENTLY_LEARNING = ['TypeScript', 'Vue', 'Vitest', 'Playwright'];
 
 export const About = () => {
   return (
-    <div className="flex flex-col justify-center items-start gap-8">
+    <div className="flex flex-col justify-center items-start gap-10">
       <Heading>About</Heading>
 
       <div className="flex flex-col gap-4 font-normal text-base xs:text-sm text-zinc-900 text-left">
