@@ -1,6 +1,6 @@
 export const Header = () => {
   return (
-    <div className="w-full flex justify-between items-center">
+    <header className="w-full flex justify-between items-center">
       <h1 className="sr-only">portfolio of beniusis</h1>
 
       <a
@@ -39,6 +39,6 @@ export const Header = () => {
           </svg>
         </a>
       </div>
-    </div>
+    </header>
   );
 };

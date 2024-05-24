@@ -2,11 +2,13 @@ import { About, Header, Projects } from './components';
 
 export const App = () => {
   return (
-    <main className="max-w-2xl p-8 m-auto gap-10 flex flex-col min-h-screen font-inter justify-center items-center selection:bg-zinc-400">
+    <div className="max-w-2xl min-h-screen p-8 m-auto font-inter selection:bg-zinc-400">
       <Header />
-      <About />
-      <Projects />
-    </main>
+      <main className="flex flex-col justify-center items-center gap-10 mt-10">
+        <About />
+        <Projects />
+      </main>
+    </div>
   );
 };
 
