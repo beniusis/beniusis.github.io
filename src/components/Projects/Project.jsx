@@ -7,7 +7,7 @@ export const Project = ({ data }) => {
         target="_blank"
       >
         <h3 className="font-bold">{data.title}</h3>
-        <p className="font-normal">{data.description}</p>
+        <p className="font-normal text-pretty">{data.description}</p>
       </a>
 
       <a
