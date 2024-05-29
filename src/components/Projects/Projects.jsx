@@ -37,7 +37,8 @@ const PROJECTS = [
     title: 'diabetr',
     description:
       'a tool that helps to calculate carbohydrates and insulin dosage for a better diabetes management on a daily basis',
-    url: 'https://github.com/beniusis/diabetr'
+    url: 'https://beniusis.github.io/blitztype',
+    repo: 'https://github.com/beniusis/diabetr'
   }
 ];
 
