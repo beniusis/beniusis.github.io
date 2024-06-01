@@ -37,7 +37,7 @@ const PROJECTS = [
     title: 'diabetr',
     description:
       "a command-line interface application that helps with meal's carbohydrates, insulin dose calculation and tracks insulin injections",
-    url: 'https://beniusis.github.io/blitztype',
+    url: 'https://github.com/beniusis/diabetr',
     repo: 'https://github.com/beniusis/diabetr'
   }
 ];
