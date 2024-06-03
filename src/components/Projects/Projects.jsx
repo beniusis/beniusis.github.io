@@ -4,32 +4,35 @@ import { Project } from './Project';
 const PROJECTS = [
   {
     title: 'habitude',
-    description: 'a habit-tracking web application',
+    description:
+      'a habit-tracking web application that helps you stick to new daily habits (working out, reading, meditating, etc.)',
     url: 'https://beniusis.github.io/habitude',
     repo: 'https://github.com/beniusis/habitude'
   },
   {
     title: 'gamefindr',
-    description: 'a simple game search web application',
+    description:
+      'a simple web application for searching video games and basic information about them (minimum requirements, release date, etc.)',
     url: 'https://beniusis.github.io/gamefindr',
     repo: 'https://github.com/beniusis/gamefindr'
   },
   {
     title: 'emojilicious',
-    description: 'a simple emoji search web application',
+    description:
+      'a simple emoji search web application with the ability to search by keywords and copy emojis to the clipboard',
     url: 'https://beniusis.github.io/emojilicious',
     repo: 'https://github.com/beniusis/emojilicious'
   },
   {
     title: 'favepix',
     description:
-      'a web application with infinite scroll functionality to search for images',
+      'an infinite scroll-capable web application for viewing the latest images from the Pexels API and saving your favorite ones',
     url: 'https://beniusis.github.io/favepix',
     repo: 'https://github.com/beniusis/favepix'
   },
   {
     title: 'blitztype',
-    description: 'a web-based typing speed test application',
+    description: 'a minimalistic typing speed test web application',
     url: 'https://beniusis.github.io/blitztype',
     repo: 'https://github.com/beniusis/blitztype'
   },
