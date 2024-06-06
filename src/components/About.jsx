@@ -8,7 +8,7 @@ export const About = () => {
     <div className="flex flex-col justify-center items-start gap-10">
       <Heading>About</Heading>
 
-      <div className="flex flex-col gap-4 font-normal text-base xs:text-sm text-zinc-900 dark:text-zinc-50 text-left text-balance">
+      <div className="flex flex-col gap-4 font-normal text-base xs:text-sm text-zinc-900 dark:text-zinc-50 text-left text-pretty">
         <p>
           A curious and constantly evolving Frontend Developer focused on
           delivering user-friendly, aesthetically pleasing, creative, effective,
