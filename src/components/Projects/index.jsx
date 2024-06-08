@@ -1,4 +1,4 @@
-import { Heading } from '../Heading';
+import { Heading } from '@/components';
 import { Project } from './Project';
 
 const PROJECTS = [
@@ -50,7 +50,7 @@ export const Projects = () => {
     <div className="flex flex-col gap-10">
       <Heading>Projects</Heading>
 
-      <div className="flex flex-col justify-center items-start gap-6">
+      <div className="flex flex-col items-start justify-center gap-6">
         {PROJECTS.map((project, index) => (
           <Project data={project} key={index} />
         ))}
