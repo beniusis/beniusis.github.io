@@ -4,10 +4,12 @@
 
 :root {
   --clr-background: rgb(255, 255, 255);
+  --background: url('./light-noise.svg');
 }
 
 :root.dark {
   --clr-background: rgb(24 24 27);
+  --background: url('./dark-noise.svg');
 }
 
 * {
@@ -19,5 +21,5 @@
 }
 
 body {
-  background-color: var(--clr-background);
+  background: var(--background);
 }
