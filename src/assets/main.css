@@ -2,16 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --clr-background: rgb(255, 255, 255);
-  --background: url('./light-noise.svg');
-}
-
-:root.dark {
-  --clr-background: rgb(24 24 27);
-  --background: url('./dark-noise.svg');
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -21,5 +11,5 @@
 }
 
 body {
-  background: var(--background);
+  background: url('./noise.svg');
 }
